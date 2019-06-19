@@ -3,11 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/user.iml" filepath="$PROJECT_DIR$/user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user.iml" filepath="$PROJECT_DIR$/user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user-assemble/user-assemble.iml" filepath="$PROJECT_DIR$/user-assemble/user-assemble.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-assemble/user-assemble.iml" filepath="$PROJECT_DIR$/user-assemble/user-assemble.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-facade/user-facade.iml" filepath="$PROJECT_DIR$/user-facade/user-facade.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user-facade/userfacade.iml" filepath="$PROJECT_DIR$/user-facade/userfacade.iml" />
     </modules>
   </component>
 </project>

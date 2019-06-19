@@ -42,4 +42,21 @@ public class UserLoginServiceImpl implements UserLoginService {
         }
 
     }
+
+    @Override
+    public Result<UserInfo> findUserByName(String username) {
+        try {
+            User user = userRepo.findByUsername(username);
+            if (user != null) {
+                UserInfo u = new UserInfo();
+                BeanUtils.copyProperties(user, u);
+                return Result.success(u);
+            }else{
+                return Result.fail("USERNAME_OR_PASSWORD_NOT_CORRECT","请重新输入用户名或密码");
+            }
+        }catch (Exception e){
+            log.warn("登录异常",e);
+            return Result.generalFail();
+        }
+    }
 }

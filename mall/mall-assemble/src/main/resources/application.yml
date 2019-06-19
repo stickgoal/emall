@@ -1,0 +1,18 @@
+server:
+  port: 9900
+  servlet:
+    context-path: /mall
+  session: MALLSESSION
+security:
+  basic: false
+  oauth2:
+    client:
+      clientId: mall
+      clientSecret: topsecret
+      accessTokenUri: http://localhost:9999/passport/oauth/token
+      userAuthorizationUri: http://localhost:9999/passport/oauth/authorize
+    resource:
+      userInfoUri: http://localhost:9999/passport/user/me
+
+
+

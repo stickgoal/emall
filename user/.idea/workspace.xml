@@ -2,24 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05e89d89-ae24-494c-bedd-97f485882649" name="Default Changelist" comment="添加ignore">
-      <change afterPath="$PROJECT_DIR$/../passport/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/java/me/maiz/ds/emall/PassportApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/java/me/maiz/ds/emall/common/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/java/me/maiz/ds/emall/web/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/test/java/com/chinasofti/ds/mutimoduleassemble/MutimoduleAssembleApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../passport/passport-facade/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../passport/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/service/impl/UserLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-assemble/src/main/resources/import.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/UserLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/common/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/info/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mall/.gitkeep" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/mall-assemble/src/main/java/me/maiz/ds/emall/config/SsoMallConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/mall-assemble/src/main/java/me/maiz/ds/emall/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/mall-assemble/src/main/resources/templates/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/java/me/maiz/ds/emall/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/java/me/maiz/ds/emall/config/SsoServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/java/me/maiz/ds/emall/service/SecurityDubboUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../passport/passport-assemble/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../passport/passport-assemble/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../passport/passport-assemble/src/main/java/me/maiz/ds/emall/PassportApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/java/me/maiz/ds/emall/PassportApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../passport/passport-assemble/src/main/java/me/maiz/ds/emall/web/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/java/me/maiz/ds/emall/web/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../passport/passport-assemble/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../passport/passport-assemble/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../passport/passport-assemble/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/service/impl/UserLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/service/impl/UserLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/UserLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/UserLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/info/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/info/UserInfo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,13 +89,16 @@
     <session id="-1654700997">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="844" />
+          <entry key="java" value="924" />
           <entry key="properties" value="249" />
           <entry key="sql" value="1" />
           <entry key="txt" value="43" />
@@ -103,7 +107,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="844" />
+          <entry key="JAVA" value="924" />
           <entry key="PLAIN_TEXT" value="43" />
           <entry key="Properties" value="249" />
           <entry key="SQL" value="1" />
@@ -129,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-assemble/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
+            <state relative-caret-position="273">
               <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
             </state>
           </provider>
@@ -144,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/UserLoginService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="93">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/info/UserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="294">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,8 +205,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/UserRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="168">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,7 +217,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="202">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -222,15 +226,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/service/impl/UserLoginServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="643">
+              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -264,15 +266,15 @@
         <option value="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/PassportApplication.java" />
         <option value="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/common/Result.java" />
         <option value="$PROJECT_DIR$/user-facade/pom.xml" />
-        <option value="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/UserLoginService.java" />
         <option value="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/user-assemble/pom.xml" />
         <option value="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/model/User.java" />
         <option value="$PROJECT_DIR$/user-assemble/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/user-assemble/src/main/resources/import.sql" />
+        <option value="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/UserLoginService.java" />
         <option value="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/UserRepo.java" />
-        <option value="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/info/UserInfo.java" />
         <option value="$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/service/impl/UserLoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/info/UserInfo.java" />
       </list>
     </option>
   </component>
@@ -302,7 +304,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="183" />
     <option name="y" value="127" />
     <option name="width" value="1382" />
@@ -315,8 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -362,12 +362,85 @@
             <path>
               <item name="user" type="b2602c69:ProjectViewProjectNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-assemble" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-assemble" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-assemble" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="user-facade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,8 +521,8 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ProviderApplication" />
-      <item itemvalue="Spring Boot.PassportApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.PassportApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -471,6 +544,8 @@
       <workItem from="1560752090979" duration="561000" />
       <workItem from="1560752680648" duration="1817000" />
       <workItem from="1560754771867" duration="3547000" />
+      <workItem from="1560925918865" duration="196000" />
+      <workItem from="1560931790298" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="添加ignore">
       <created>1560494033585</created>
@@ -483,13 +558,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9296000" />
+    <option name="totallyTimeSpent" value="10248000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="183" y="127" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3053435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26943004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -508,14 +582,14 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32871014" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.53120667" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.53120667" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32966322" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.32966322" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,16 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/web/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/web/LoginController.java" />
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -566,13 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/resources/templates/index.html" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -587,24 +646,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/App.java">
+    <entry file="file://$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/App.java" />
+    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/common/Result.java" />
+    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="273">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-facade/pom.xml">
+    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/resources/import.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/common/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state>
+          <caret column="93" selection-start-column="93" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -618,47 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/user-facade/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/resources/import.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="93" selection-start-column="93" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/UserRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/info/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -669,10 +686,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/UserLoginService.java">
+    <entry file="file://$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/info/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="294">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/UserRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/dao/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -681,12 +718,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user-assemble/src/main/java/me/maiz/ds/emall/service/impl/UserLoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="643">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-facade/src/main/java/me/maiz/ds/emall/UserLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,22 +6,28 @@ import me.maiz.ds.emall.UserLoginService;
 import me.maiz.ds.emall.common.Result;
 import me.maiz.ds.emall.info.UserInfo;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-@RestController
+import java.security.Principal;
+
+
+@Controller
 @Slf4j
 public class LoginController {
 
-    @Reference
-    private UserLoginService userLoginService;
 
+    @GetMapping("login")
+    public String login(){
+        return "login";
+    }
 
-    @RequestMapping("login")
-    public Result login(String username,String password){
-        log.info("username:{},password:{}",username,password);
-        Result<UserInfo> loginResult = userLoginService.login(username, password);
-        return loginResult;
+    @RequestMapping("/user/me")
+    @ResponseBody
+    public Principal getUserInfo(Principal principal){
+        log.info("用户信息：{}",principal);
+        return principal;
     }
 
 }

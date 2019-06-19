@@ -37,3 +37,10 @@
 - maven        依赖及构建工具
 - git                代码管理
 
+[端口]
+
+passport：9999
+
+user:9990
+
+mall:9900

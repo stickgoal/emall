@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-assemble" />
+        <module name="mall-facade" />
+        <module name="mallfacade" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mall" target="1.8" />
+      <module name="mall-assemble" target="1.8" />
+      <module name="mall-facade" target="1.8" />
+      <module name="mallfacade" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

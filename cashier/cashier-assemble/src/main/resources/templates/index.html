@@ -52,18 +52,9 @@
         },
         methods:{
             onSubmit:function () {
-
                 var v = this;
-                axios.post('login',Qs.stringify(this.form)).then(function(response){
-                    console.log(response);
-                    if(response.data.success){
-                        v.$message("成功");
-                    }else{
-                        v.$message({
-                            message:response.data.message,
-                            type:"fail"
-                        })
-                    }
+                axios.post('login',JSON.stringify(this.form)).then(function(){
+                   v.$message("成功");
                 });
             }
         }

@@ -22,4 +22,11 @@ public interface UserLoginService {
      */
     Result<UserInfo> login(String username, String password);
 
+    /**
+     * 根据用户名查找用户
+     * @param username
+     * @return
+     */
+    Result<UserInfo> findUserByName(String username);
+
 }
