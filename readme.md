@@ -44,3 +44,5 @@ passport：9999
 user:9990
 
 mall:9900
+
+cashier:9901
